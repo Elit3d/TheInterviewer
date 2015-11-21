@@ -629,10 +629,11 @@ MonoBehaviour:
   - {fileID: 1545854679}
   - {fileID: 1589423157}
   - {fileID: 267444531}
-  associate_one: {fileID: 674019319}
-  associate_two: {fileID: 1391116895}
-  associate_three: {fileID: 522091900}
-  associate_four: {fileID: 1373678637}
+  associates:
+  - {fileID: 674019319}
+  - {fileID: 1391116895}
+  - {fileID: 522091900}
+  - {fileID: 1373678637}
   current_associate: {fileID: 375055584}
 --- !u!1 &372030577
 GameObject:

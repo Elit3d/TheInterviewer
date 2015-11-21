@@ -14,10 +14,10 @@ public class Update_Current_Associate : MonoBehaviour {
         current_associate_image = transform.GetChild(0).GetComponent<Image>();
     }
 
-    public void Update_Stats(string stats)
+    public void Update_Associate()
     {
         Update_Image();
-        Update_Text("TEst");
+        Update_Text();
     }
 
     public void Update_Image() //replaces current image with new image
@@ -25,9 +25,9 @@ public class Update_Current_Associate : MonoBehaviour {
         transform.GetChild(0).GetComponent<Image>().sprite = associate.face.sprite;
     }
 
-    public void Update_Text(string new_associate_text) //replaces current text with new text
+    public void Update_Text() //replaces current text with new text
     {
-        current_associate_text.text = new_associate_text;
+        current_associate_text.text = "Blah";
     }
 
     public Associate Get_Associate()
