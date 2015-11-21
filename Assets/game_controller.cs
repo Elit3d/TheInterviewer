@@ -25,5 +25,19 @@ public class game_controller : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        Add_To_Slot();
 	}
+
+    void Add_To_Slot()
+    {
+        for (int i = 0; i < associates_stats.Length; i++)
+        {
+            if (associates_stats[i].Get_Slot_Taken() == false)
+            {
+                associates_stats[i].name_text.text = "Name: " + current_associate.associate.name;
+                associates_stats[i].skill_text.text = "Skill: " + current_associate.associate.skill;
+                break;
+            }
+        }
+    }
 }
