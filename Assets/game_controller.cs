@@ -41,10 +41,10 @@ public class game_controller : MonoBehaviour {
 			if (associates_stats[i].Get_Slot_Taken() == false)
 			{
 				associates_stats[i].current_image.sprite = current_associate.current_associate_image.sprite;
-				associates_stats[i].name_text.text = "Name: " + "current_associate.associate.name";
-				associates_stats[i].skill_text.text = "Skill: " + "current_associate.associate.skill";
-                associates_stats[i].level_text.text = "Level: " + "current_associate.associate.level";
-                associates_stats[i].morale_text.text = "Morale: " + "current_associate.associate.morale";
+				associates_stats[i].name_text.text = "Name: " + current_associate.associate.name;
+				associates_stats[i].skill_text.text = "Skill: " + current_associate.associate.skill;
+				associates_stats[i].level_text.text = "Level: " + current_associate.associate.level.ToString();
+				associates_stats[i].morale_text.text = "Morale: " + current_associate.associate.morale.ToString();
 				associates_stats[i].Set_Slot_Taken(true);
 				break;
 			}
