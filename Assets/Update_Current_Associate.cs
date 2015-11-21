@@ -27,7 +27,9 @@ public class Update_Current_Associate : MonoBehaviour {
 
     public void Update_Text() //replaces current text with new text
     {
-        current_associate_text.text = associate.question_dialogue[associate.current_question];
+        current_associate_text.text = associate.get_question(associate.current_question);
+        
+
         associate.current_question++;
     }
 

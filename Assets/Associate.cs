@@ -41,6 +41,7 @@ public class Associate : MonoBehaviour {
 
     public void Next_Dialogue_Set( int i)
     {
+        print(i);
         if (current_dialogue == 1)
         {
             morale += first_dialogue_scores[i];
@@ -80,6 +81,11 @@ public class Associate : MonoBehaviour {
             }
         }
         current_dialogue++;
-        current_question++;
+    }
+
+    public string get_question(int i)
+    {
+
+        return question_dialogue[i];
     }
 }
