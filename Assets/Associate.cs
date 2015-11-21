@@ -11,6 +11,9 @@ public class Associate : MonoBehaviour {
 
     public Image face;
 
+    public int current_question;
+    public int current_dialogue;
+
     public List<string> question_dialogue;
 
     public List<string> first_dialogue;
@@ -28,11 +31,19 @@ public class Associate : MonoBehaviour {
 
     private void Start()
     {
+        current_question = 0;
+        current_dialogue = 0;
+
         buttons.Add(transform.GetChild(0).GetComponent<Button>());
         buttons.Add(transform.GetChild(1).GetComponent<Button>());
         buttons.Add(transform.GetChild(2).GetComponent<Button>());
         buttons.Add(transform.GetChild(3).GetComponent<Button>());
-        Update_Buttons(0);
+        Update_Buttons(current_dialogue);
+    }
+
+    public void Next_Dialogue_Set()
+    {
+        Update_Buttons(current_dialogue);
     }
 
     public void Update_Buttons(int dialogue_selection)
@@ -42,9 +53,30 @@ public class Associate : MonoBehaviour {
             print(buttons.Count);
             for(int i = 0; i < buttons.Count; i++)
             {
-                print("Working");
                 buttons[i].transform.GetChild(0).GetComponent<Text>().text = first_dialogue[i];
             }
         }
+        if(dialogue_selection == 1)
+        {
+            for(int i = 0; i < buttons.Count; i++)
+            {
+                buttons[i].transform.GetChild(0).GetComponent<Text>().text = second_dialogue[i];
+            }
+        }
+        if(dialogue_selection == 2)
+        {
+            for(int i = 0; i < buttons.Count; i++)
+            {
+                buttons[i].transform.GetChild(0).GetComponent<Text>().text = third_dialogue[i];
+            }
+        }
+        if(dialogue_selection == 3)
+        {
+            for(int i=  0; i < buttons.Count; i++)
+            {
+                buttons[i].transform.GetChild(0).GetComponent<Text>().text = fourth_dialogue[i];
+            }
+        }
+        current_dialogue++;
     }
 }

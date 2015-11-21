@@ -20,3 +20,25 @@ E:\Game Jam\The Interviewer\Temp\bin\Debug\UnityEngine.Networking.xml
 E:\Game Jam\The Interviewer\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
 E:\Game Jam\The Interviewer\obj\Debug\Assembly-CSharp-firstpass.dll
 E:\Game Jam\The Interviewer\obj\Debug\Assembly-CSharp-firstpass.pdb
+F:\GameJam\TheInterviewer\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+F:\GameJam\TheInterviewer\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+F:\GameJam\TheInterviewer\Temp\bin\Debug\Mono.Cecil.dll
+F:\GameJam\TheInterviewer\Temp\bin\Debug\UnityEditor.dll
+F:\GameJam\TheInterviewer\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+F:\GameJam\TheInterviewer\Temp\bin\Debug\UnityEngine.dll
+F:\GameJam\TheInterviewer\Temp\bin\Debug\UnityEngine.Networking.dll
+F:\GameJam\TheInterviewer\Temp\bin\Debug\UnityEngine.UI.dll
+F:\GameJam\TheInterviewer\Temp\bin\Debug\Unity.SerializationLogic.dll
+F:\GameJam\TheInterviewer\Temp\bin\Debug\Unity.DataContract.dll
+F:\GameJam\TheInterviewer\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+F:\GameJam\TheInterviewer\Temp\bin\Debug\Unity.UNetWeaver.dll
+F:\GameJam\TheInterviewer\Temp\bin\Debug\Unity.CecilTools.dll
+F:\GameJam\TheInterviewer\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+F:\GameJam\TheInterviewer\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+F:\GameJam\TheInterviewer\Temp\bin\Debug\UnityEngine.xml
+F:\GameJam\TheInterviewer\Temp\bin\Debug\UnityEditor.xml
+F:\GameJam\TheInterviewer\Temp\bin\Debug\UnityEngine.UI.xml
+F:\GameJam\TheInterviewer\Temp\bin\Debug\UnityEngine.Networking.xml
+F:\GameJam\TheInterviewer\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
+F:\GameJam\TheInterviewer\obj\Debug\Assembly-CSharp-firstpass.dll
+F:\GameJam\TheInterviewer\obj\Debug\Assembly-CSharp-firstpass.pdb
