@@ -9,6 +9,8 @@ public class Associate : MonoBehaviour {
     public int level;
     public int morale;
 
+    public Image face;
+
 
     public List<string> first_dialogue;
     public List<string> second_dialogue;
