@@ -27,6 +27,7 @@ GameObject:
   m_Component:
   - 224: {fileID: 22451872}
   - 222: {fileID: 22277800}
+  - 114: {fileID: 11454298}
   m_Layer: 5
   m_Name: Associate
   m_TagString: Untagged
@@ -483,6 +484,30 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Button
+--- !u!114 &11454298
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 144114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b57da4a1c417e240acf9be605881236, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  skill: 
+  level: 0
+  morale: 0
+  first_dialogue: []
+  second_dialogue: []
+  third_dialogue: []
+  fourth_dialogue: []
+  first_dialogue_scores: 
+  second_dialogue_scores: 
+  third_dialogue_scores: 
+  fourth_dialogue_scores: 
+  buttons: []
 --- !u!114 &11465094
 MonoBehaviour:
   m_ObjectHideFlags: 1

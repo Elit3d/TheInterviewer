@@ -24,6 +24,11 @@ public class update_stats : MonoBehaviour {
         morale_text = transform.GetChild(1).transform.GetChild(3).GetComponent<Text>();
 
         slot_taken = false;
+		current_image = transform.GetChild(0).GetComponent<Image>();
+		name_text = transform.GetChild(1).transform.GetChild(0).GetComponent<Text>();
+		skill_text = transform.GetChild(1).transform.GetChild(1).GetComponent<Text>();
+		level_text = transform.GetChild(1).transform.GetChild(2).GetComponent<Text>();
+		morale_text = transform.GetChild(1).transform.GetChild(3).GetComponent<Text>();
 	}
 	
 	// Update is called once per frame
@@ -51,7 +56,7 @@ public class update_stats : MonoBehaviour {
 
 	}
 
-	public void Update_Morale(string morale)
+	public void Update_Morale(int morale)
 	{
 
 	}
