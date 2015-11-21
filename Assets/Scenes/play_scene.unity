@@ -225,6 +225,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 703806663}
     m_Modifications:
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 22451872, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -316,6 +320,22 @@ Prefab:
     - target: {fileID: 22451872, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: m_LocalScale.z
       value: .895953834
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.data[0]
+      value: this
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.data[1]
+      value: is
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.data[2]
+      value: a
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.data[3]
+      value: test
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
@@ -707,6 +727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a93866be4bb91874db58382c3cc83c3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  associate: {fileID: 0}
   current_associate_image: {fileID: 1585977812}
   current_associate_text: {fileID: 220151651}
 --- !u!224 &522091899 stripped
@@ -903,6 +924,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 703806663}
     m_Modifications:
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 22451872, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -994,6 +1019,22 @@ Prefab:
     - target: {fileID: 22451872, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: m_LocalScale.z
       value: .895953834
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.data[0]
+      value: Do one
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.data[1]
+      value: do one
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.data[2]
+      value: do one
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.data[3]
+      value: do one
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -1097,6 +1138,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 703806663}
     m_Modifications:
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 22451872, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1189,6 +1234,22 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: .895953834
       objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.data[0]
+      value: Second guy
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.data[1]
+      value: bit one
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.data[2]
+      value: bit two
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.data[3]
+      value: bit three
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
   m_IsPrefabParent: 0
@@ -1269,6 +1330,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 703806663}
     m_Modifications:
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 22451872, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1360,6 +1425,22 @@ Prefab:
     - target: {fileID: 22451872, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: m_LocalScale.z
       value: .895953834
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.data[0]
+      value: blah
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.data[1]
+      value: blah
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.data[2]
+      value: blah
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.data[3]
+      value: blah
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}

@@ -20,6 +20,7 @@ public class game_controller : MonoBehaviour {
 		DontDestroyOnLoad(this); //do not destroy when changing scene
 		current_associate.Update_Text("This is a test\nOf the new line."); //@TEST tests changing current_associate text, this works
 		associate_one.gameObject.SetActive(true);
+        associate_one.Update_Buttons(0);
 	}
 	
 	// Update is called once per frame

@@ -29,5 +29,19 @@ public class Associate : MonoBehaviour {
         buttons.Add(transform.GetChild(1).GetComponent<Button>());
         buttons.Add(transform.GetChild(2).GetComponent<Button>());
         buttons.Add(transform.GetChild(3).GetComponent<Button>());
+        Update_Buttons(0);
+    }
+
+    public void Update_Buttons(int dialogue_selection)
+    {
+        if(dialogue_selection == 0)
+        {
+            print(buttons.Count);
+            for(int i = 0; i < buttons.Count; i++)
+            {
+                print("Working");
+                buttons[i].transform.GetChild(0).GetComponent<Text>().text = first_dialogue[i];
+            }
+        }
     }
 }
