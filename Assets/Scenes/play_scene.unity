@@ -301,6 +301,14 @@ Prefab:
       propertyPath: m_Name
       value: Associate_1
       objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: name
+      value: Dave
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: skill
+      value: Lockpicking
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
   m_IsPrefabParent: 0
@@ -1083,6 +1091,14 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: name
+      value: Porky
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: skill
+      value: Being undercover
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
@@ -1305,6 +1321,14 @@ Prefab:
     - target: {fileID: 11462330, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: name
+      value: Stanley
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: skill
+      value: Hacker
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
@@ -1728,6 +1752,14 @@ Prefab:
     - target: {fileID: 11462330, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: name
+      value: Graham
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: skill
+      value: Hostage Negotiation
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
