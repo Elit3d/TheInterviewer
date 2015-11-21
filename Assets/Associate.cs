@@ -19,13 +19,11 @@ public class Associate : MonoBehaviour {
     public List<string> first_dialogue;
     public List<string> second_dialogue;
     public List<string> third_dialogue;
-    public List<string> fourth_dialogue;
 
 
     public List<int> first_dialogue_scores;
     public List<int> second_dialogue_scores;
     public List<int> third_dialogue_scores;
-    public List<int> fourth_dialogue_scores;
 
     public List<Button> buttons;
 
@@ -41,16 +39,29 @@ public class Associate : MonoBehaviour {
         Update_Buttons(current_dialogue);
     }
 
-    public void Next_Dialogue_Set()
+    public void Next_Dialogue_Set( int i)
     {
+        print(i + " " + current_dialogue.ToString() + " " + current_question.ToString());
         Update_Buttons(current_dialogue);
+        if (current_dialogue == 0)
+        {
+            morale += first_dialogue_scores[i];
+        }
+        if(current_dialogue == 1)
+        {
+            morale += second_dialogue_scores[i];
+        }
+        if(current_dialogue == 2)
+        {
+            morale += third_dialogue_scores[i];
+        }
+        print(morale);
     }
 
     public void Update_Buttons(int dialogue_selection)
     {
         if(dialogue_selection == 0)
         {
-            print(buttons.Count);
             for(int i = 0; i < buttons.Count; i++)
             {
                 buttons[i].transform.GetChild(0).GetComponent<Text>().text = first_dialogue[i];
@@ -70,13 +81,7 @@ public class Associate : MonoBehaviour {
                 buttons[i].transform.GetChild(0).GetComponent<Text>().text = third_dialogue[i];
             }
         }
-        if(dialogue_selection == 3)
-        {
-            for(int i=  0; i < buttons.Count; i++)
-            {
-                buttons[i].transform.GetChild(0).GetComponent<Text>().text = fourth_dialogue[i];
-            }
-        }
         current_dialogue++;
+        current_question++;
     }
 }
