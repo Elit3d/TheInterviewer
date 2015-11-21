@@ -371,7 +371,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22451872, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22451872, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -535,7 +535,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: question_dialogue.Array.data[3]
-      value: Improve your skills.
+      value: Hm...
       objectReference: {fileID: 0}
     - target: {fileID: 11442054, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -633,6 +633,22 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 22451872, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_LocalScale.x
+      value: .895953774
+      objectReference: {fileID: 0}
+    - target: {fileID: 22451872, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_LocalScale.y
+      value: .895953774
+      objectReference: {fileID: 0}
+    - target: {fileID: 22451872, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_LocalScale.z
+      value: .895953774
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: current_associate
+      value: 
+      objectReference: {fileID: 375055584}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
   m_IsPrefabParent: 0
@@ -1526,10 +1542,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 674019318}
   - {fileID: 1391116894}
   - {fileID: 522091899}
   - {fileID: 1373678636}
-  - {fileID: 674019318}
   m_Father: {fileID: 231922710}
   m_RootOrder: 2
   m_AnchorMin: {x: 1, y: 0}
@@ -1696,7 +1712,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22451872, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 22451872, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -1979,6 +1995,10 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: current_associate
+      value: 
+      objectReference: {fileID: 375055584}
     m_RemovedComponents:
     - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
@@ -2095,7 +2115,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: question_dialogue.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: first_dialogue_scores.Array.size
@@ -2155,7 +2175,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22451872, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22451872, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -2433,6 +2453,14 @@ Prefab:
     - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: question_dialogue.Array.data[2]
       value: '...who are you?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: current_associate
+      value: 
+      objectReference: {fileID: 375055584}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: question_dialogue.Array.data[3]
+      value: Whut?
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
@@ -2842,7 +2870,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22451872, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 22451872, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -2907,19 +2935,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: question_dialogue.Array.data[0]
-      value: aoeu
+      value: testing
       objectReference: {fileID: 0}
     - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: question_dialogue.Array.data[1]
-      value: aoeu
+      value: this
       objectReference: {fileID: 0}
     - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: question_dialogue.Array.data[2]
-      value: aoeu
+      value: sort
       objectReference: {fileID: 0}
     - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: question_dialogue.Array.data[3]
-      value: oaeu
+      value: shit
       objectReference: {fileID: 0}
     - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: second_dialogue.Array.data[0]
@@ -3097,6 +3125,10 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: current_associate
+      value: 
+      objectReference: {fileID: 375055584}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
   m_IsPrefabParent: 0

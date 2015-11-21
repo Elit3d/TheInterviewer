@@ -19,7 +19,6 @@ public class game_controller : MonoBehaviour {
 		DontDestroyOnLoad(this); //do not destroy when changing scene
 		curr_associate = 0;
 		Init_Associate(curr_associate);
-		
 	}
 	
 	void Init_Associate(int i)
@@ -27,11 +26,7 @@ public class game_controller : MonoBehaviour {
 		associates[curr_associate].gameObject.SetActive(true);
 		associates[curr_associate].Update_Buttons(0);
 		current_associate.associate = associates[curr_associate];
-        current_associate.Update_Associate();
-	}
-
-	// Update is called once per frame
-	void Update () {
+		current_associate.Update_Associate();
 	}
 
 	void Add_To_Slot()
@@ -60,14 +55,14 @@ public class game_controller : MonoBehaviour {
 
 	public void Hire_BTN()
 	{
-        //add to our team
+		//add to our team
 		Add_To_Slot();
 		Next_Associate();
 	}
 
-    public void Dismiss_BTN()
-    {
-        //dismiss current one
-        Next_Associate();
-    }
+	public void Dismiss_BTN()
+	{
+		//dismiss current one
+		Next_Associate();
+	}
 }
