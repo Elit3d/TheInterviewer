@@ -1612,6 +1612,22 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11499952, guid: 44e7f7fbaf5888641877d8b92cd0bbe2, type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 11482412, guid: 44e7f7fbaf5888641877d8b92cd0bbe2, type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 11420704, guid: 44e7f7fbaf5888641877d8b92cd0bbe2, type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 11413716, guid: 44e7f7fbaf5888641877d8b92cd0bbe2, type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44e7f7fbaf5888641877d8b92cd0bbe2, type: 2}
   m_IsPrefabParent: 0

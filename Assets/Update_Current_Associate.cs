@@ -14,10 +14,10 @@ public class Update_Current_Associate : MonoBehaviour {
         current_associate_image = transform.GetChild(0).GetComponent<Image>();
     }
 
-    public void Update_Stats(string )
+    public void Update_Stats(string stats)
     {
         Update_Image();
-        Update_Text();
+        Update_Text("TEst");
     }
 
     public void Update_Image() //replaces current image with new image
