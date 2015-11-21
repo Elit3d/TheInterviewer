@@ -11,6 +11,7 @@ public class Associate : MonoBehaviour {
 
     public Image face;
 
+    public List<string> question_dialogue;
 
     public List<string> first_dialogue;
     public List<string> second_dialogue;

@@ -14,6 +14,12 @@ public class Update_Current_Associate : MonoBehaviour {
         current_associate_image = transform.GetChild(0).GetComponent<Image>();
     }
 
+    public void Update_Stats(string )
+    {
+        Update_Image();
+        Update_Text();
+    }
+
     public void Update_Image() //replaces current image with new image
     {
         transform.GetChild(0).GetComponent<Image>().sprite = associate.face.sprite;
