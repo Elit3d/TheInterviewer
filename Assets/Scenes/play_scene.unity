@@ -225,6 +225,46 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 703806663}
     m_Modifications:
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: third_dialogue.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: second_dialogue.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: question_dialogue.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue_scores.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: third_dialogue_scores.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: second_dialogue_scores.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11442054, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11421368, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11436498, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11471572, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 22451872, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -303,11 +343,203 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: name
-      value: Dave
+      value: Jason
       objectReference: {fileID: 0}
     - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
       propertyPath: skill
       value: Lockpicking
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: question_dialogue.Array.data[0]
+      value: I'm Jason, I am a locksmith.\nWhy do you want to hire me?
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: question_dialogue.Array.data[1]
+      value: Interesting, how much money are we looking at?
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: question_dialogue.Array.data[2]
+      value: How would this benefit me?
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.data[0]
+      value: Need an experienced locksmith.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.data[1]
+      value: Am going to rob a bank.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.data[2]
+      value: Robbing a band and need a strong team.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue.Array.data[3]
+      value: Locked out of my house.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue_scores.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue_scores.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue_scores.Array.data[2]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: first_dialogue_scores.Array.data[3]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: second_dialogue.Array.data[0]
+      value: "\xA3100"
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: second_dialogue.Array.data[1]
+      value: "\xA32,000"
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: second_dialogue.Array.data[2]
+      value: "\xA310,000"
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: second_dialogue.Array.data[3]
+      value: "\xA3500,000"
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: second_dialogue_scores.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: second_dialogue_scores.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: second_dialogue_scores.Array.data[2]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: second_dialogue_scores.Array.data[3]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: third_dialogue.Array.data[0]
+      value: You could become famous.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: third_dialogue.Array.data[1]
+      value: Join a strong team.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: third_dialogue.Array.data[2]
+      value: Make money.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: third_dialogue.Array.data[3]
+      value: Improve your skills.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: third_dialogue_scores.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: third_dialogue_scores.Array.data[1]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: third_dialogue_scores.Array.data[2]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: third_dialogue_scores.Array.data[3]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454298, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: question_dialogue.Array.data[3]
+      value: Improve your skills.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11442054, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11442054, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11442054, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 674019319}
+    - target: {fileID: 11442054, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Next_Dialogue_Set
+      objectReference: {fileID: 0}
+    - target: {fileID: 11442054, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11421368, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11421368, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11421368, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 674019319}
+    - target: {fileID: 11421368, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Next_Dialogue_Set
+      objectReference: {fileID: 0}
+    - target: {fileID: 11421368, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11436498, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11436498, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11436498, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 674019319}
+    - target: {fileID: 11436498, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Next_Dialogue_Set
+      objectReference: {fileID: 0}
+    - target: {fileID: 11436498, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11471572, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11471572, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11471572, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 674019319}
+    - target: {fileID: 11471572, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Next_Dialogue_Set
+      objectReference: {fileID: 0}
+    - target: {fileID: 11471572, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dacc32c6bda9745409be82af3c80ba69, type: 2}

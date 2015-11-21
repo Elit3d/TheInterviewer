@@ -27,7 +27,7 @@ public class game_controller : MonoBehaviour {
 		associates[curr_associate].gameObject.SetActive(true);
 		associates[curr_associate].Update_Buttons(0);
 		current_associate.associate = associates[curr_associate];
-		current_associate.Update_Associate();
+        current_associate.Update_Associate();
 	}
 
 	// Update is called once per frame
