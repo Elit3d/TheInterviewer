@@ -51,7 +51,7 @@ public class game_controller : MonoBehaviour {
         {
             if (associates_stats[i].Get_Slot_Taken() == false)
             {
-                associates_stats[i].current_image = current_associate.current_associate_image;
+                associates_stats[i].current_image.sprite = current_associate.current_associate_image.sprite;
                 associates_stats[i].name_text.text = "Name: " + "current_associate.associate.name";
                 associates_stats[i].skill_text.text = "Skill: " + "current_associate.associate.skill";
                 associates_stats[i].level_text.text = "Level: " + "current_associate.associate.level";
@@ -60,5 +60,10 @@ public class game_controller : MonoBehaviour {
                 break;
             }
         }
+    }
+
+    public void Hire_BTN()
+    {
+        Next_Associate();
     }
 }
