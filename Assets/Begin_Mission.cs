@@ -20,14 +20,20 @@ public class Begin_Mission : MonoBehaviour {
        }
 
        Check_Total_Points();
+        //if points  is correct, we want it to be successful
+       Application.LoadLevel("mission_scene");
     }
 
     void Check_Total_Points()
     {
         Debug.Log(total_points);
-        if (total_points >= 0)
+        if (total_points >= 10)
         {
             Debug.Log("worked");
+        }
+        else
+        {
+            Debug.Log("failed");
         }
     }
 }
