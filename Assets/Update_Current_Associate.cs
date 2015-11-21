@@ -4,6 +4,7 @@ using System.Collections;
 
 public class Update_Current_Associate : MonoBehaviour {
 
+    public Associate associate;
     public Image current_associate_image;
     public Text current_associate_text;
 
@@ -17,8 +18,8 @@ public class Update_Current_Associate : MonoBehaviour {
         current_associate_text.text = new_associate_text;
     }
 
-    public GameObject Get_Associate()
+    public Associate Get_Associate()
     {
-       ret
+        return associate;
     }
 }

@@ -63,7 +63,6 @@ public class update_stats : MonoBehaviour {
 
     public void Hire_BTN()
     {
-        for(int i = 0; i <)
     }
 
     public void Dismiss_BTN()
