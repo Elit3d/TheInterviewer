@@ -707,6 +707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a93866be4bb91874db58382c3cc83c3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  associate: {fileID: 0}
   current_associate_image: {fileID: 1585977812}
   current_associate_text: {fileID: 220151651}
 --- !u!224 &522091899 stripped
