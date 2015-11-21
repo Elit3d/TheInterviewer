@@ -10,6 +10,11 @@ public class update_stats : MonoBehaviour {
 	public Text level_text;
 	public Text morale_text;
 
+    public Button hire_button;
+    public Button dismiss_button;
+
+    private bool slot_taken; // is the friend tab taken if not add character.
+
 	// Use this for initialization
 	void Start () {
         current_image = transform.GetChild(0).GetComponent<Image>();
@@ -17,11 +22,13 @@ public class update_stats : MonoBehaviour {
         skill_text = transform.GetChild(1).transform.GetChild(1).GetComponent<Text>();
         level_text = transform.GetChild(1).transform.GetChild(2).GetComponent<Text>();
         morale_text = transform.GetChild(1).transform.GetChild(3).GetComponent<Text>();
+
+        slot_taken = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+
 	}
 
 	public void Update_Name(string name)
@@ -48,4 +55,14 @@ public class update_stats : MonoBehaviour {
 	{
 
 	}
+
+    public void Hire_BTN()
+    {
+        for(int i = 0; i <)
+    }
+
+    public void Dismiss_BTN()
+    {
+
+    }
 }

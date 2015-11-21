@@ -16,4 +16,9 @@ public class Update_Current_Associate : MonoBehaviour {
     {
         current_associate_text.text = new_associate_text;
     }
+
+    public GameObject Get_Associate()
+    {
+       ret
+    }
 }
