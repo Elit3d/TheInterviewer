@@ -41,21 +41,19 @@ public class Associate : MonoBehaviour {
 
     public void Next_Dialogue_Set( int i)
     {
-        print(i + " " + current_dialogue.ToString() + " " + current_question.ToString());
-        Update_Buttons(current_dialogue);
-        if (current_dialogue == 0)
+        if (current_dialogue == 1)
         {
             morale += first_dialogue_scores[i];
         }
-        if(current_dialogue == 1)
+        if(current_dialogue == 2)
         {
             morale += second_dialogue_scores[i];
         }
-        if(current_dialogue == 2)
+        if(current_dialogue == 3)
         {
             morale += third_dialogue_scores[i];
         }
-        print(morale);
+        Update_Buttons(current_dialogue);
     }
 
     public void Update_Buttons(int dialogue_selection)
