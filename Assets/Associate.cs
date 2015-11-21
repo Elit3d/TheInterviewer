@@ -86,6 +86,13 @@ public class Associate : MonoBehaviour {
                 buttons[i].transform.GetChild(0).GetComponent<Text>().text = third_dialogue[i];
             }
         }
+        if(current_dialogue > 2)
+        {
+            for(int i = 0; i < buttons.Count; i++)
+            {
+                buttons[i].interactable = false;
+            }
+        }
         current_dialogue++;
     }
 
