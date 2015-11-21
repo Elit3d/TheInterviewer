@@ -45,6 +45,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Dialogue_Controller.cs" />
      <Compile Include="Assets\Update_Current_Associate.cs" />
      <Compile Include="Assets\game_controller.cs" />
      <Compile Include="Assets\spawnDialogue.cs" />
