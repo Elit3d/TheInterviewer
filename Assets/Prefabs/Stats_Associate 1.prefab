@@ -193,6 +193,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cb56fd50a516f348a5a8f94b6aaf0a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current_image: {fileID: 0}
+  name_text: {fileID: 0}
+  skill_text: {fileID: 0}
+  level_text: {fileID: 0}
+  morale_text: {fileID: 0}
 --- !u!114 &11457068
 MonoBehaviour:
   m_ObjectHideFlags: 1
