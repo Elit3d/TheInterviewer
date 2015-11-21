@@ -43,8 +43,8 @@ public class game_controller : MonoBehaviour {
 				associates_stats[i].current_image.sprite = current_associate.current_associate_image.sprite;
 				associates_stats[i].name_text.text = "Name: " + "current_associate.associate.name";
 				associates_stats[i].skill_text.text = "Skill: " + "current_associate.associate.skill";
-				associates_stats[i].level_text.text = "Level: ";
-				associates_stats[i].morale_text.text = "Morale: ";
+                associates_stats[i].level_text.text = "Level: " + "current_associate.associate.level";
+                associates_stats[i].morale_text.text = "Morale: " + "current_associate.associate.morale";
 				associates_stats[i].Set_Slot_Taken(true);
 				break;
 			}
@@ -60,7 +60,14 @@ public class game_controller : MonoBehaviour {
 
 	public void Hire_BTN()
 	{
+        //add to our team
 		Add_To_Slot();
 		Next_Associate();
 	}
+
+    public void Dismiss_BTN()
+    {
+        //dismiss current one
+        Next_Associate();
+    }
 }
