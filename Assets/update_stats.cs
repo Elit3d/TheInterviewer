@@ -79,14 +79,11 @@ public class update_stats : MonoBehaviour {
     public void decrement_morale()
     {
         print("WHUT?!");
-        if (linked_associate.morale > 0)
+        if (linked_associate.morale > 0 && linked_associate.morale < 20)
         {
-            if (linked_associate.morale < 20)
-            {
-                linked_associate.morale--;
-                morale_text.text = "Morale: " + linked_associate.morale.ToString();
-                game_controller.money += 5000;
-            }
+            linked_associate.morale--;
+            morale_text.text = "Morale: " + linked_associate.morale.ToString();
+            game_controller.money += 5000;
         }
     }
 }

@@ -47,6 +47,7 @@ public class Associate : MonoBehaviour {
     void Update()
     {
         current_question = current_dialogue - 1;
+        
     }
 
     public void Next_Dialogue_Set( int i)
@@ -54,20 +55,16 @@ public class Associate : MonoBehaviour {
         if (current_dialogue == 1)
         {
             morale += first_dialogue_scores[i];
-            face.sprite = reaction_faces[first_dialogue_scores[i]].sprite;
         }
         if(current_dialogue == 2)
         {
             morale += second_dialogue_scores[i];
-            game_controller.money -= int.Parse(second_dialogue[i].Replace("£", "").Replace(",", ""));
-            face.sprite = reaction_faces[second_dialogue_scores[i]].sprite;
         }
         if(current_dialogue == 3)
         {
             morale += third_dialogue_scores[i];
-            face.sprite = reaction_faces[third_dialogue_scores[i]].sprite;
         }
-        
+        face.sprite = reaction_faces[i].sprite;
         Update_Buttons(current_dialogue);
         current_associate.Update_Associate();
     }
