@@ -2812,7 +2812,7 @@ MonoBehaviour:
   - Locked out of my house.
   second_dialogue:
   - "\xA3100"
-  - "\xA32,000"
+  - "\xA32000"
   - "\xA310,000"
   - "\xA3500,000"
   third_dialogue:
@@ -5926,7 +5926,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5bfa7ccba4890fb4693627da09904db6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c025dad75f796f746b6ad4dd1443fbb9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6146,7 +6146,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 940d2ececc06b2d419feb500df29c7b5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fca05422b1359fc43801e15fb4637e90, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6478,14 +6478,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 638431902}
     m_Modifications:
-    - target: {fileID: 11431420, guid: 44e7f7fbaf5888641877d8b92cd0bbe2, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11445486, guid: 44e7f7fbaf5888641877d8b92cd0bbe2, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 22426136, guid: 44e7f7fbaf5888641877d8b92cd0bbe2, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -6557,46 +6549,6 @@ Prefab:
     - target: {fileID: 22426136, guid: 44e7f7fbaf5888641877d8b92cd0bbe2, type: 2}
       propertyPath: m_Pivot.y
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11431420, guid: 44e7f7fbaf5888641877d8b92cd0bbe2, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11431420, guid: 44e7f7fbaf5888641877d8b92cd0bbe2, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11431420, guid: 44e7f7fbaf5888641877d8b92cd0bbe2, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 82013710}
-    - target: {fileID: 11431420, guid: 44e7f7fbaf5888641877d8b92cd0bbe2, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: decrement_morale
-      objectReference: {fileID: 0}
-    - target: {fileID: 11431420, guid: 44e7f7fbaf5888641877d8b92cd0bbe2, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 11445486, guid: 44e7f7fbaf5888641877d8b92cd0bbe2, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11445486, guid: 44e7f7fbaf5888641877d8b92cd0bbe2, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11445486, guid: 44e7f7fbaf5888641877d8b92cd0bbe2, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 82013710}
-    - target: {fileID: 11445486, guid: 44e7f7fbaf5888641877d8b92cd0bbe2, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: increment_morale
-      objectReference: {fileID: 0}
-    - target: {fileID: 11445486, guid: 44e7f7fbaf5888641877d8b92cd0bbe2, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44e7f7fbaf5888641877d8b92cd0bbe2, type: 2}
@@ -6825,7 +6777,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 87f470f18af37b3439b19d3d7dfbe528, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9d2c9d9d0749d1847923693cef7ae778, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8025,7 +7977,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: fbf91cfc5b9228e4098cdc279118ebd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5bfa7ccba4890fb4693627da09904db6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
