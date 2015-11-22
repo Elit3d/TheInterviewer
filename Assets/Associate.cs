@@ -6,12 +6,15 @@ using System.Collections;
 public class Associate : MonoBehaviour {
     public Update_Current_Associate current_associate;
 
+    bool active = false;
+
     public string name;
     public string skill;
     public int level;
     public int morale;
 
     public Image face;
+
     public List<Image> reaction_faces;
 
     public int current_question;

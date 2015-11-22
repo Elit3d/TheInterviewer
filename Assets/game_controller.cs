@@ -6,9 +6,13 @@ using System.Collections.Generic;
 
 public class game_controller : MonoBehaviour {
 
+    public static int money;
+
 	public update_stats[] associates_stats; //do not change this name, it will reset the array
 
 	public List<Associate> associates;
+
+    public Text cash;
 
 	int curr_associate;
 
@@ -16,10 +20,23 @@ public class game_controller : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        money = 100000;
 		DontDestroyOnLoad(this); //do not destroy when changing scene
 		curr_associate = 0;
 		Init_Associate(curr_associate);
 	}
+
+    void Update()
+    {
+        if (Application.loadedLevel == 0)
+        {
+            if (Associates_Check())
+            {
+                global_variables.STATE = global_variables.GAME_STATES.MOD_TEAM;
+            }
+            cash.text = "Cash: " + money.ToString();
+        }
+    }
 	
 	void Init_Associate(int i)
 	{
@@ -40,6 +57,7 @@ public class game_controller : MonoBehaviour {
 				associates_stats[i].skill_text.text = "Skill: " + current_associate.associate.skill;
 				associates_stats[i].level_text.text = "Level: " + current_associate.associate.level.ToString();
 				associates_stats[i].morale_text.text = "Morale: " + current_associate.associate.morale.ToString();
+                associates_stats[i].linked_associate = current_associate.associate;
 				associates_stats[i].Set_Slot_Taken(true);
 				break;
 			}
@@ -57,6 +75,7 @@ public class game_controller : MonoBehaviour {
 	{
 		//add to our team
 		Add_To_Slot();
+		current_associate.associate.gameObject.SetActive(false);
 		Next_Associate();
 	}
 
@@ -66,25 +85,27 @@ public class game_controller : MonoBehaviour {
 		Next_Associate();
 	}
 
-    bool Associates_Check()
-    {
-        bool slots_taken = true;
-        for(int i = 0; i < associates_stats.Length; i++)
-        {
-            if(associates_stats[i].transform.GetChild(0).GetComponent<Image>().sprite == null)
-            {
-                slots_taken = false;
-                break;
-            }
-        }
-        if(slots_taken)
-        {
-            global_variables.STATE = global_variables.GAME_STATES.MOD_TEAM;
-        }
-        else
-        {
-            global_variables.STATE = global_variables.GAME_STATES.HIRING;
-        }
-        return slots_taken;
-    }
+	
+
+	bool Associates_Check()
+	{
+		bool slots_taken = true;
+		for(int i = 0; i < associates_stats.Length; i++)
+		{
+			if(associates_stats[i].transform.GetChild(0).GetComponent<Image>().sprite == null)
+			{
+				slots_taken = false;
+				break;
+			}
+		}
+		if(slots_taken)
+		{
+			global_variables.STATE = global_variables.GAME_STATES.MOD_TEAM;
+		}
+		else
+		{
+			global_variables.STATE = global_variables.GAME_STATES.HIRING;
+		}
+		return slots_taken;
+	}
 }

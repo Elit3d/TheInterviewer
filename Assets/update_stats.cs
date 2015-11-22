@@ -10,6 +10,8 @@ public class update_stats : MonoBehaviour {
 	public Text level_text;
 	public Text morale_text;
 
+    public Associate linked_associate;
+
     private bool slot_taken; // is the friend tab taken if not add character.
 
 	// Use this for initialization
@@ -61,5 +63,27 @@ public class update_stats : MonoBehaviour {
     public void Set_Slot_Taken(bool slotTaken)
     {
         slot_taken = slotTaken;
+    }
+
+    public void increment_morale()
+    {
+        if (game_controller.money >= 5000)
+        {
+            print(linked_associate.morale);
+            linked_associate.morale++;
+            morale_text.text = "Morale: " + linked_associate.morale.ToString();
+            game_controller.money -= 5000;
+        }
+    }
+
+    public void decrement_morale()
+    {
+        print("WHUT?!");
+        if (linked_associate.morale > 0 && linked_associate.morale < 20)
+        {
+            linked_associate.morale--;
+            morale_text.text = "Morale: " + linked_associate.morale.ToString();
+            game_controller.money += 5000;
+        }
     }
 }
