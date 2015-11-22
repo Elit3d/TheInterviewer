@@ -52,6 +52,7 @@
      <Compile Include="Assets\Update_Current_Associate.cs" />
      <Compile Include="Assets\game_controller.cs" />
      <Compile Include="Assets\global_variables.cs" />
+     <Compile Include="Assets\loadLevel.cs" />
      <Compile Include="Assets\spawnDialogue.cs" />
      <Compile Include="Assets\update_stats.cs" />
      <None Include="Assets\temp_dialogue.txt" />
