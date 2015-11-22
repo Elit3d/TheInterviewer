@@ -65,4 +65,26 @@ public class game_controller : MonoBehaviour {
 		//dismiss current one
 		Next_Associate();
 	}
+
+    bool Associates_Check()
+    {
+        bool slots_taken = true;
+        for(int i = 0; i < associates_stats.Length; i++)
+        {
+            if(associates_stats[i].transform.GetChild(0).GetComponent<Image>().sprite == null)
+            {
+                slots_taken = false;
+                break;
+            }
+        }
+        if(slots_taken)
+        {
+            global_variables.STATE = global_variables.GAME_STATES.MOD_TEAM;
+        }
+        else
+        {
+            global_variables.STATE = global_variables.GAME_STATES.HIRING;
+        }
+        return slots_taken;
+    }
 }

@@ -1,11 +1,12 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{3EB1BBD4-30D1-5E86-03F4-73A0A0448B97}") = "TheInterviewer", "Assembly-CSharp-firstpass.csproj", "{AE1FAF49-C0D3-B53A-1B46-29782D1C93A7}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{AE1FAF49-C0D3-B53A-1B46-29782D1C93A7}"
 EndProject
-Project("{3EB1BBD4-30D1-5E86-03F4-73A0A0448B97}") = "TheInterviewer", "Assembly-CSharp.csproj", "{1B1DAC19-4937-AE71-A9B2-7762ABF1CB36}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{1B1DAC19-4937-AE71-A9B2-7762ABF1CB36}"
 EndProject
-Project("{3EB1BBD4-30D1-5E86-03F4-73A0A0448B97}") = "TheInterviewer", "Assembly-CSharp-Editor.csproj", "{8AA89EE0-A014-5045-7EBA-C65CA4753964}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{8AA89EE0-A014-5045-7EBA-C65CA4753964}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,7 +30,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-									GlobalSection(MonoDevelopProperties) = preSolution
+	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $3
@@ -47,5 +48,4 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
-
 EndGlobal
