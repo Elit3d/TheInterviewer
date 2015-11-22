@@ -671,9 +671,9 @@ MonoBehaviour:
   current_question: 0
   current_dialogue: 0
   question_dialogue:
-  - Is this the right place for the interview?
+  - Is this the right place for theNEWLINEinterview?
   - What is the payment?
-  - This doesn't seem like a good idea, why should I trust this?
+  - This doesn't seem likeNEWLINEa good idea, why shouldNEWLINEI trust this?
   - Hm...
   first_dialogue:
   - Yes
@@ -688,7 +688,7 @@ MonoBehaviour:
   third_dialogue:
   - Becuase you just can
   - You really can't
-  - Give it a go and you will learn to have trust
+  - Give it a go and youNEWLINEwill learn to have trust
   - I am a well known criminal
   first_dialogue_scores: 03000000000000000200000001000000
   second_dialogue_scores: 00000000010000000200000003000000
@@ -3777,26 +3777,27 @@ MonoBehaviour:
   current_question: 0
   current_dialogue: 0
   question_dialogue:
-  - Hello Mr. Michael, I know lots about you,NEWLONEI am the best scout there is and
-    I couldNEWLINEgreatly benefit you! Am I what you are looking for?
-  - Now I expect a good payment, what sort of money are we looking at?
+  - Hello Mr. Michael, I knowNEWLINElots about you,I amNEWLINEthe best scout thereNEWLINEis
+    and I couldNEWLINEgreatly benefit you!NEWLINEAm I what you are lookingNEWLINEfor?
+  - Now I expectNEWLINEa good payment, what sortNEWLINEof money are weNEWLINElooking
+    at?
   - '..., well tell me about yourself?'
   - Hm...
   first_dialogue:
   - Wait, how do you know me...
   - '*Feel creeped out*'
-  - I'm glad you know me, shows that youNEWLINEreally are a great spy!
-  - Indeed you are and I need a great spy!
+  - I'm glad you know me,NEWLINEshows that you are a good spy
+  - Indeed you are andNEWLINEI need a great spy!
   second_dialogue:
   - "\xA3100"
   - "\xA32,000"
   - "\xA310,000"
   - "\xA3500,000"
   third_dialogue:
-  - 'I know my way around lots of buildings '
+  - 'I know my wayNEWLINEaround lots of buildings '
   - 'I am 5ft 10inch '
   - 'I am an expert at what I do '
-  - 'I have done things like this in the past '
+  - 'I have done things like thisNEWLINEin the past '
   first_dialogue_scores: 01000000010000000300000003000000
   second_dialogue_scores: 00000000010000000200000003000000
   third_dialogue_scores: 03000000000000000200000002000000
@@ -6074,7 +6075,7 @@ MonoBehaviour:
   first_dialogue:
   - Make some money
   - Help my team out
-  - I heard you are a professional Thief
+  - I heard you are aNEWLINEprofessional Thief
   - My Grandma needs a butler
   second_dialogue:
   - "\xA3100"
@@ -6361,9 +6362,9 @@ MonoBehaviour:
   current_question: 0
   current_dialogue: 0
   question_dialogue:
-  - Don't rip me off pal, I know what this is and why I am here!
-  - I want the best money you can give me!
-  - Im in, but tell me why you need me?
+  - Don't rip me off pal,NEWLINEI know what thisNEWLINEis and why I amNEWLINEhere!
+  - I want the best money NEWLINEyou can give me!
+  - Im in, but tell meNEWLINEwhy you need me?
   - Hm...
   first_dialogue:
   - I won't..
@@ -6376,7 +6377,7 @@ MonoBehaviour:
   - "\xA310,000"
   - "\xA3500,000"
   third_dialogue:
-  - I need someone that is experienced
+  - I need someone that isNEWLINEexperienced
   - I don't think we do need you
   - My team would benefit greatly
   - Get out of here man!
@@ -6639,7 +6640,7 @@ MonoBehaviour:
   - You have just been kidnapped
   - I need your help
   - We are going to rob a bank
-  - You are here to make some money
+  - You are here to makeNEWLINEsome money
   second_dialogue:
   - "\xA3100"
   - "\xA32,000"
@@ -8574,14 +8575,14 @@ MonoBehaviour:
   current_question: 0
   current_dialogue: 0
   question_dialogue:
-  - I'm the best scout there is! Do you want me in the team?
+  - I'm the best scout there is!NEWLINEDo you want me in the team?
   - How much are we looking at?
   - How can I be of assistance?
   - Hm...
   first_dialogue:
   - Yes
   - 'Not really '
-  - I would love to hire a professional!
+  - I would love to hireNEWLINEa professional!
   - Get in here, old buddy, old pal
   second_dialogue:
   - "\xA3100"
@@ -8589,10 +8590,10 @@ MonoBehaviour:
   - "\xA310,000"
   - "\xA3500,000"
   third_dialogue:
-  - You are going to scout there area before you go in
-  - Track the cameras and find the exits
+  - You are going to scout theNEWLINEarea before you go in
+  - Track the camerasNEWLINEand find the exits
   - Go get blueprints of the building
-  - Nothing, sit there and don't speak!
+  - Nothing, sit there andNEWLINEdon't speak!
   first_dialogue_scores: 02000000000000000300000001000000
   second_dialogue_scores: 00000000010000000200000003000000
   third_dialogue_scores: 03000000020000000300000000000000
@@ -8994,7 +8995,7 @@ MonoBehaviour:
   - Okay?
   - Are you feeling alright?
   - Err...
-  - So, do you want to ask me anything?
+  - So, do you want to askNEWLINEme anything?
   second_dialogue:
   - "\xA3100"
   - "\xA32,000"
@@ -9003,7 +9004,7 @@ MonoBehaviour:
   third_dialogue:
   - Robbing a bank
   - Hiring a team of strong people
-  - Nothing really, just trying to make friends
+  - Nothing really, just tryingNEWLINEto make friends
   - Say nothing
   first_dialogue_scores: 01000000020000000000000003000000
   second_dialogue_scores: 00000000010000000200000003000000
@@ -12352,15 +12353,15 @@ MonoBehaviour:
   current_question: 0
   current_dialogue: 0
   question_dialogue:
-  - Well, I know my way around the system,NEWLINEis a hacker needed in the team?
-  - I'm here because I want to make quickNEWLINEmoney, what can you offer?
-  - Well I'd be happy to join, but justNEWLINEone more thing, what exactly are we
-    robbing?
+  - Well, I know my way around theNEWLINEsystem, is a hacker needed inNEWLINEthe team?
+  - I'm here because I want to makeNEWLINEquick money, what canNEWLINEyou offer?
+  - Well I'd be happy to join,NEWLINEbut just one more thing,NEWLINEwhat exactly are
+    we robbing?
   - Hm...
   first_dialogue:
   - Defiantly do!
   - Not really but we can beNEWLINEfriends if you want?
-  - It would be a great asset to our team!
+  - It would be a great assetNEWLINEto our team!
   - '*Say nothing*'
   second_dialogue:
   - "\xA3100"
@@ -14628,10 +14629,10 @@ MonoBehaviour:
   current_question: 0
   current_dialogue: 0
   question_dialogue:
-  - Yo, yo! Can I join your team dawg!?
-  - Alright, cool! What's the payment look like?
-  - I don't specialize in anything but I probablyNEWLINEbe your spy, would that be
-    okay?
+  - Yo, yo! Can I join yourNEWLINEteam dawg!?
+  - Alright, cool! What's theNEWLINEpayment look like?
+  - I don't specialize in anythingNEWLINEbut I probably be yourNEWLINEspy, would that
+    beNEWLINEokay?
   - Hm...
   first_dialogue:
   - Yeah.... no...
