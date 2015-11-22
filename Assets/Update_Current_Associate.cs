@@ -27,11 +27,12 @@ public class Update_Current_Associate : MonoBehaviour {
 
     public void Update_Text() //replaces current text with new text
     {
+        
         if (associate.current_question < associate.question_dialogue.Count - 1)
         {
-            current_associate_text.text = associate.question_dialogue[associate.current_dialogue - 1];
+            string new_line = associate.question_dialogue[associate.current_dialogue - 1];
+            current_associate_text.text = new_line.Replace("NEWLINE", "\n");
         }
-
     }
 
     public Associate Get_Associate()

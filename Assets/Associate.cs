@@ -12,6 +12,7 @@ public class Associate : MonoBehaviour {
     public int morale;
 
     public Image face;
+    public List<Image> reaction_faces;
 
     public int current_question;
     public int current_dialogue;
@@ -43,6 +44,7 @@ public class Associate : MonoBehaviour {
     void Update()
     {
         current_question = current_dialogue - 1;
+        
     }
 
     public void Next_Dialogue_Set( int i)
@@ -59,6 +61,7 @@ public class Associate : MonoBehaviour {
         {
             morale += third_dialogue_scores[i];
         }
+        face.sprite = reaction_faces[i].sprite;
         Update_Buttons(current_dialogue);
         current_associate.Update_Associate();
     }
@@ -69,21 +72,21 @@ public class Associate : MonoBehaviour {
         {
             for(int i = 0; i < buttons.Count; i++)
             {
-                buttons[i].transform.GetChild(0).GetComponent<Text>().text = first_dialogue[i];
+                buttons[i].transform.GetChild(0).GetComponent<Text>().text = first_dialogue[i].Replace("NEWLINE", "\n");
             }
         }
         if(dialogue_selection == 1)
         {
             for(int i = 0; i < buttons.Count; i++)
             {
-                buttons[i].transform.GetChild(0).GetComponent<Text>().text = second_dialogue[i];
+                buttons[i].transform.GetChild(0).GetComponent<Text>().text = second_dialogue[i].Replace("NEWLINE", "\n");
             }
         }
         if(dialogue_selection == 2)
         {
             for(int i = 0; i < buttons.Count; i++)
             {
-                buttons[i].transform.GetChild(0).GetComponent<Text>().text = third_dialogue[i];
+                buttons[i].transform.GetChild(0).GetComponent<Text>().text = third_dialogue[i].Replace("NEWLINE", "\n");
             }
         }
         if(current_dialogue > 2)
