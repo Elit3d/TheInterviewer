@@ -176,40 +176,10 @@ Options:
 1: Game Shop
 2: ASDA
 3: Bank
-4: Pentagon
+4: Whitehouse
 
 ============================================================================================================
 Character 7:
---------------------------------
-Dialog 1
---------------------------------
-Text: I'm here because I want to make quickNEWLINEmoney, what can you offer?
-Options:
-1: £100
-2: £2,000 
-3: £10,000
-4: £500,000 
---------------------------------
-Dialog 2
---------------------------------
-Text: Well, I know my way around the system,NEWLINEis a hacker needed in the team?
-Options:
-1: Defiantly do!
-2: Not really but we can beNEWLINEfriends if you want?
-3: It would be a great asset to our team!
-4: *Say nothing*
---------------------------------
-Dialog 3
---------------------------------
-Text: Well I'd be happy to join, but justNEWLINEone more thing, what exactly are we robbing?
-Options:
-1: Game Shop
-2: ASDA
-3: Bank
-4: Pentagon
-
-============================================================================================================
-Character 8:
 --------------------------------
 Dialog 1
 --------------------------------
@@ -239,7 +209,7 @@ Options:
 4: £500,000 
 
 ============================================================================================================
-Character 9:
+Character 8:
 --------------------------------
 Dialog 1
 --------------------------------
@@ -267,6 +237,36 @@ Options:
 2: I 5ft 10inch 
 3: I am an expert scouter 
 4: I have done things like this in the past 
+
+============================================================================================================
+Character 9:
+--------------------------------
+Dialog 1
+--------------------------------
+Text: 
+Options:
+1: 
+2: 
+3: 
+4: 
+--------------------------------
+Dialog 2
+--------------------------------
+Text: 
+Options:
+1:
+2: 
+3: 
+4: 
+--------------------------------
+Dialog 3
+--------------------------------
+Text: 
+Options:
+1: 
+2: 
+3: 
+4: 
 
 ============================================================================================================
 Character 10:
