@@ -681,10 +681,10 @@ MonoBehaviour:
   - Maybe
   - Errrrr
   second_dialogue:
-  - "\xA3100"
-  - "\xA32,000"
-  - "\xA310,000"
-  - "\xA3500,000"
+  - "\xA3200"
+  - "\xA34,000"
+  - "\xA320,000"
+  - "\xA340,000"
   third_dialogue:
   - Becuase you just can
   - You really can't
@@ -3790,10 +3790,10 @@ MonoBehaviour:
   - I'm glad you know me,NEWLINEshows that you are a good spy
   - Indeed you are andNEWLINEI need a great spy!
   second_dialogue:
-  - "\xA3100"
-  - "\xA32,000"
-  - "\xA310,000"
-  - "\xA3500,000"
+  - "\xA3400"
+  - "\xA34,000"
+  - "\xA340,000"
+  - "\xA380,000"
   third_dialogue:
   - 'I know my wayNEWLINEaround lots of buildings '
   - 'I am 5ft 10inch '
@@ -5254,7 +5254,7 @@ MonoBehaviour:
   - "\xA3100"
   - "\xA32,000"
   - "\xA310,000"
-  - "\xA3500,000"
+  - "\xA320,000"
   third_dialogue:
   - You could become famous.
   - Join a strong team.
@@ -6079,10 +6079,10 @@ MonoBehaviour:
   - I heard you are aNEWLINEprofessional Thief
   - My Grandma needs a butler
   second_dialogue:
-  - "\xA3100"
-  - "\xA32000"
-  - "\xA310,000"
-  - "\xA3500,000"
+  - "\xA3200"
+  - "\xA38000"
+  - "\xA340000"
+  - "\xA380000"
   third_dialogue:
   - Erm... no.
   - Well I've been to NEWLINE the bank before.
@@ -6376,7 +6376,7 @@ MonoBehaviour:
   - "\xA3100"
   - "\xA32000"
   - "\xA310,000"
-  - "\xA3500,000"
+  - "\xA320,000"
   third_dialogue:
   - I need someone that isNEWLINEexperienced
   - I don't think we do need you
@@ -6643,10 +6643,10 @@ MonoBehaviour:
   - We are going to rob a bank
   - You are here to makeNEWLINEsome money
   second_dialogue:
-  - "\xA3100"
-  - "\xA32,000"
-  - "\xA310,000"
-  - "\xA3500,000"
+  - "\xA3400"
+  - "\xA34,000"
+  - "\xA340,000"
+  - "\xA380,000"
   third_dialogue:
   - Join our team
   - Hire more members
@@ -8586,10 +8586,10 @@ MonoBehaviour:
   - I would love to hireNEWLINEa professional!
   - Get in here, old buddy, old pal
   second_dialogue:
-  - "\xA3100"
-  - "\xA32,000"
-  - "\xA310,000"
-  - "\xA3500,000"
+  - "\xA3200"
+  - "\xA34,000"
+  - "\xA320,000"
+  - "\xA340,000"
   third_dialogue:
   - You are going to scout theNEWLINEarea before you go in
   - Track the camerasNEWLINEand find the exits
@@ -8998,10 +8998,10 @@ MonoBehaviour:
   - Err...
   - So, do you want to askNEWLINEme anything?
   second_dialogue:
-  - "\xA3100"
-  - "\xA32,000"
-  - "\xA310,000"
-  - "\xA3500,000"
+  - "\xA3200"
+  - "\xA34,000"
+  - "\xA320,000"
+  - "\xA340,000"
   third_dialogue:
   - Robbing a bank
   - Hiring a team of strong people
@@ -12365,10 +12365,10 @@ MonoBehaviour:
   - It would be a great assetNEWLINEto our team!
   - '*Say nothing*'
   second_dialogue:
-  - "\xA3100"
-  - "\xA32,000"
-  - "\xA310,000"
-  - "\xA3500,000"
+  - "\xA3200"
+  - "\xA34,000"
+  - "\xA320,000"
+  - "\xA340,000"
   third_dialogue:
   - Game Shop
   - ASDA
@@ -14641,10 +14641,10 @@ MonoBehaviour:
   - Can't you talk more professional
   - Get out of here!
   second_dialogue:
-  - "\xA3100"
-  - "\xA32,000"
-  - "\xA310,000"
-  - "\xA3500,000"
+  - "\xA3400"
+  - "\xA38,000"
+  - "\xA340,000"
+  - "\xA380,000"
   third_dialogue:
   - Not really
   - Sure sound good
