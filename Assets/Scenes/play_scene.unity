@@ -657,9 +657,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   current_associate: {fileID: 375055584}
-  name: Jason
+  name: Andy
   skill: Lockpicking
-  level: 0
+  level: 1
   morale: 0
   amount_promised: 0
   face: {fileID: 1266697888}
@@ -671,28 +671,28 @@ MonoBehaviour:
   current_question: 0
   current_dialogue: 0
   question_dialogue:
-  - What is this?... where am I?
-  - Sure! What do I have to do?
-  - Well I am the best, what is the pay?
+  - Is this the right place for the interview?
+  - What is the payment?
+  - This doesn't seem like a good idea, why should I trust this?
   - Hm...
   first_dialogue:
-  - You have just been kidnapped
-  - I need your help
-  - We are going to rob a bank
-  - You are here to make some money
+  - Yes
+  - No
+  - Maybe
+  - Errrrr
   second_dialogue:
   - "\xA3100"
   - "\xA32,000"
   - "\xA310,000"
   - "\xA3500,000"
   third_dialogue:
-  - "\xA3100"
-  - "\xA32,000"
-  - "\xA310,000"
-  - "\xA3500,000"
-  first_dialogue_scores: 03000000010000000200000000000000
-  second_dialogue_scores: 01000000020000000300000000000000
-  third_dialogue_scores: 00000000020000000300000001000000
+  - Becuase you just can
+  - You really can't
+  - Give it a go and you will learn to have trust
+  - I am a well known criminal
+  first_dialogue_scores: 03000000000000000200000001000000
+  second_dialogue_scores: 00000000010000000200000003000000
+  third_dialogue_scores: 01000000000000000200000003000000
   buttons: []
 --- !u!222 &31505774
 CanvasRenderer:
@@ -3715,9 +3715,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   current_associate: {fileID: 375055584}
-  name: Jason
-  skill: Lockpicking
-  level: 0
+  name: Barry
+  skill: Scout
+  level: 2
   morale: 0
   amount_promised: 0
   face: {fileID: 310668489}
@@ -3729,7 +3729,7 @@ MonoBehaviour:
   current_question: 0
   current_dialogue: 0
   question_dialogue:
-  - Hello Mr. Michael, I know lots about you,NEWLONEI am the best spy there is and
+  - Hello Mr. Michael, I know lots about you,NEWLONEI am the best scout there is and
     I couldNEWLINEgreatly benefit you! Am I what you are looking for?
   - Now I expect a good payment, what sort of money are we looking at?
   - '..., well tell me about yourself?'
@@ -3738,7 +3738,7 @@ MonoBehaviour:
   - Wait, how do you know me...
   - '*Feel creeped out*'
   - I'm glad you know me, shows that youNEWLINEreally are a great spy!
-  - Indeed you are!
+  - Indeed you are and I need a great spy!
   second_dialogue:
   - "\xA3100"
   - "\xA32,000"
@@ -3747,11 +3747,11 @@ MonoBehaviour:
   third_dialogue:
   - 'I know my way around lots of buildings '
   - 'I am 5ft 10inch '
-  - 'I am an expert scouter '
+  - 'I am an expert at what I do '
   - 'I have done things like this in the past '
-  first_dialogue_scores: 03000000010000000200000000000000
-  second_dialogue_scores: 01000000020000000300000000000000
-  third_dialogue_scores: 00000000020000000300000001000000
+  first_dialogue_scores: 01000000010000000300000003000000
+  second_dialogue_scores: 00000000010000000200000003000000
+  third_dialogue_scores: 03000000000000000200000002000000
   buttons: []
 --- !u!222 &456806629
 CanvasRenderer:
@@ -5211,7 +5211,7 @@ MonoBehaviour:
   - Make money.
   - Improve your skills.
   first_dialogue_scores: 03000000010000000200000000000000
-  second_dialogue_scores: 01000000020000000300000000000000
+  second_dialogue_scores: 00000000010000000200000003000000
   third_dialogue_scores: 00000000020000000300000001000000
   buttons: []
 --- !u!1 &681261354
@@ -6006,8 +6006,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   current_associate: {fileID: 375055584}
   name: Carl
-  skill: Theif
-  level: 0
+  skill: Thief
+  level: 2
   morale: 0
   amount_promised: 0
   face: {fileID: 740986473}
@@ -6026,7 +6026,7 @@ MonoBehaviour:
   first_dialogue:
   - Make some money
   - Help my team out
-  - I heard you are a professional gunner
+  - I heard you are a professional Thief
   - My Grandma needs a butler
   second_dialogue:
   - "\xA3100"
@@ -6039,7 +6039,7 @@ MonoBehaviour:
   - Here are the plans and NEWLINE our strategies.
   - I was hoping you NEWLINEcould do that.
   first_dialogue_scores: 03000000010000000200000000000000
-  second_dialogue_scores: 01000000020000000300000000000000
+  second_dialogue_scores: 00000000010000000200000003000000
   third_dialogue_scores: 00000000020000000300000001000000
   buttons: []
 --- !u!1 &842451892
@@ -6299,8 +6299,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   current_associate: {fileID: 375055584}
-  name: Jason
-  skill: Lockpicking
+  name: Darrel
+  skill: Thief
   level: 0
   morale: 0
   amount_promised: 0
@@ -6313,28 +6313,28 @@ MonoBehaviour:
   current_question: 0
   current_dialogue: 0
   question_dialogue:
-  - What is this?... where am I?
-  - Sure! What do I have to do?
-  - Well I am the best, what is the pay?
+  - Don't rip me off pal, I know what this is and why I am here!
+  - I want the best money you can give me!
+  - Im in, but tell me why you need me?
   - Hm...
   first_dialogue:
-  - You have just been kidnapped
-  - I need your help
-  - We are going to rob a bank
-  - You are here to make some money
+  - I won't..
+  - Okay
+  - I will pay you the best!
+  - You won't get anything from me
   second_dialogue:
   - "\xA3100"
   - "\xA32000"
   - "\xA310,000"
   - "\xA3500,000"
   third_dialogue:
-  - "\xA3100"
-  - "\xA32,000"
-  - "\xA310,000"
-  - "\xA3500,000"
-  first_dialogue_scores: 03000000010000000200000000000000
-  second_dialogue_scores: 01000000020000000300000000000000
-  third_dialogue_scores: 00000000020000000300000001000000
+  - I need someone that is experienced
+  - I don't think we do need you
+  - My team would benefit greatly
+  - Get out of here man!
+  first_dialogue_scores: 02000000020000000300000000000000
+  second_dialogue_scores: 00000000010000000200000003000000
+  third_dialogue_scores: 03000000000000000200000000000000
   buttons: []
 --- !u!222 &856544707
 CanvasRenderer:
@@ -6569,9 +6569,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   current_associate: {fileID: 375055584}
-  name: Jason
+  name: Eric
   skill: Lockpicking
-  level: 0
+  level: 2
   morale: 0
   amount_promised: 0
   face: {fileID: 1396791996}
@@ -6584,8 +6584,8 @@ MonoBehaviour:
   current_dialogue: 0
   question_dialogue:
   - What is this?... where am I?
+  - Whats the pay?
   - Sure! What do I have to do?
-  - Well I am the best, what is the pay?
   - Hm...
   first_dialogue:
   - You have just been kidnapped
@@ -6593,18 +6593,18 @@ MonoBehaviour:
   - We are going to rob a bank
   - You are here to make some money
   second_dialogue:
-  - Join our team
-  - Hire more members
-  - Do what you are good at!
-  - Do nothing
-  third_dialogue:
   - "\xA3100"
   - "\xA32,000"
   - "\xA310,000"
   - "\xA3500,000"
-  first_dialogue_scores: 03000000010000000200000000000000
-  second_dialogue_scores: 01000000020000000300000000000000
-  third_dialogue_scores: 00000000020000000300000001000000
+  third_dialogue:
+  - Join our team
+  - Hire more members
+  - Do what you are good at!
+  - Do nothing
+  first_dialogue_scores: 00000000020000000300000003000000
+  second_dialogue_scores: 00000000010000000200000003000000
+  third_dialogue_scores: 02000000010000000300000000000000
   buttons: []
 --- !u!222 &902494305
 CanvasRenderer:
@@ -8464,9 +8464,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   current_associate: {fileID: 375055584}
-  name: Jason
-  skill: Lockpicking
-  level: 0
+  name: Sheila
+  skill: Scout
+  level: 1
   morale: 0
   amount_promised: 0
   face: {fileID: 418058539}
@@ -8497,9 +8497,9 @@ MonoBehaviour:
   - Track the cameras and find the exits
   - Go get blueprints of the building
   - Nothing, sit there and don't speak!
-  first_dialogue_scores: 03000000010000000200000000000000
+  first_dialogue_scores: 02000000000000000300000001000000
   second_dialogue_scores: 00000000010000000200000003000000
-  third_dialogue_scores: 00000000020000000300000001000000
+  third_dialogue_scores: 03000000020000000300000000000000
   buttons: []
 --- !u!1 &1225830258
 GameObject:
@@ -8876,9 +8876,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   current_associate: {fileID: 375055584}
-  name: Jason
-  skill: Lockpicking
-  level: 0
+  name: John
+  skill: Spy
+  level: 1
   morale: 0
   amount_promised: 0
   face: {fileID: 1288162546}
@@ -8909,9 +8909,9 @@ MonoBehaviour:
   - Hiring a team of strong people
   - Nothing really, just trying to make friends
   - Say nothing
-  first_dialogue_scores: 03000000010000000200000000000000
-  second_dialogue_scores: 01000000020000000300000000000000
-  third_dialogue_scores: 00000000020000000300000001000000
+  first_dialogue_scores: 01000000020000000000000003000000
+  second_dialogue_scores: 00000000010000000200000003000000
+  third_dialogue_scores: 03000000020000000000000000000000
   buttons: []
 --- !u!1 &1288162544
 GameObject:
@@ -10043,6 +10043,22 @@ Prefab:
       propertyPath: current_associate
       value: 
       objectReference: {fileID: 375055584}
+    - target: {fileID: 11441552, guid: f24c07db7ed2565439543cc8d45f4cce, type: 2}
+      propertyPath: second_dialogue_scores.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11441552, guid: f24c07db7ed2565439543cc8d45f4cce, type: 2}
+      propertyPath: second_dialogue_scores.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11441552, guid: f24c07db7ed2565439543cc8d45f4cce, type: 2}
+      propertyPath: second_dialogue_scores.Array.data[2]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11441552, guid: f24c07db7ed2565439543cc8d45f4cce, type: 2}
+      propertyPath: second_dialogue_scores.Array.data[3]
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f24c07db7ed2565439543cc8d45f4cce, type: 2}
   m_IsPrefabParent: 0
@@ -12218,9 +12234,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   current_associate: {fileID: 375055584}
-  name: Jason
-  skill: Lockpicking
-  level: 0
+  name: Phil
+  skill: Thief
+  level: 1
   morale: 0
   amount_promised: 0
   face: {fileID: 214252290}
@@ -12252,9 +12268,9 @@ MonoBehaviour:
   - ASDA
   - Bank
   - Whitehouse
-  first_dialogue_scores: 03000000010000000200000000000000
-  second_dialogue_scores: 01000000020000000300000000000000
-  third_dialogue_scores: 00000000020000000300000001000000
+  first_dialogue_scores: 03000000000000000200000000000000
+  second_dialogue_scores: 00000000010000000200000003000000
+  third_dialogue_scores: 00000000000000000300000000000000
   buttons: []
 --- !u!222 &1750202264
 CanvasRenderer:
@@ -14446,9 +14462,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   current_associate: {fileID: 375055584}
-  name: Jason
-  skill: Lockpicking
-  level: 0
+  name: Debora
+  skill: Spy
+  level: 2
   morale: 0
   amount_promised: 0
   face: {fileID: 2079274191}
@@ -14462,8 +14478,8 @@ MonoBehaviour:
   question_dialogue:
   - Yo, yo! Can I join your team dawg!?
   - Alright, cool! What's the payment look like?
-  - I don't specialize in anything but I probablyNEWLINEbe your gunner, would that
-    be okay?
+  - I don't specialize in anything but I probablyNEWLINEbe your spy, would that be
+    okay?
   - Hm...
   first_dialogue:
   - Yeah.... no...
@@ -14480,9 +14496,9 @@ MonoBehaviour:
   - Sure sound good
   - I don't want you in my team
   - '*Ignore the guy and walk away*'
-  first_dialogue_scores: 03000000010000000200000000000000
-  second_dialogue_scores: 01000000020000000300000000000000
-  third_dialogue_scores: 00000000020000000300000001000000
+  first_dialogue_scores: 00000000030000000100000000000000
+  second_dialogue_scores: 00000000010000000200000003000000
+  third_dialogue_scores: 00000000030000000000000000000000
   buttons: []
 --- !u!222 &2145927681
 CanvasRenderer:
