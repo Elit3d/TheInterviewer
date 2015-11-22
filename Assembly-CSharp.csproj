@@ -48,6 +48,7 @@
      <Compile Include="Assets\Associate.cs" />
      <Compile Include="Assets\Begin_Mission.cs" />
      <Compile Include="Assets\Dialogue_Controller.cs" />
+     <Compile Include="Assets\DoNotDestroy.cs" />
      <Compile Include="Assets\Update_Current_Associate.cs" />
      <Compile Include="Assets\game_controller.cs" />
      <Compile Include="Assets\global_variables.cs" />
