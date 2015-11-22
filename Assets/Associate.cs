@@ -13,6 +13,8 @@ public class Associate : MonoBehaviour {
     public int level;
     public int morale;
 
+    public int amount_promised;
+
     public Image face;
 
     public List<Image> reaction_faces;
@@ -55,16 +57,21 @@ public class Associate : MonoBehaviour {
         if (current_dialogue == 1)
         {
             morale += first_dialogue_scores[i];
+            face.sprite = reaction_faces[first_dialogue_scores[i]].sprite;
         }
         if(current_dialogue == 2)
         {
             morale += second_dialogue_scores[i];
+            amount_promised = int.Parse(second_dialogue[i].Replace("£", "").Replace(",", ""));
+            face.sprite = reaction_faces[second_dialogue_scores[i]].sprite;
+            
         }
         if(current_dialogue == 3)
         {
             morale += third_dialogue_scores[i];
+            face.sprite = reaction_faces[third_dialogue_scores[i]].sprite;
         }
-        face.sprite = reaction_faces[i].sprite;
+        
         Update_Buttons(current_dialogue);
         current_associate.Update_Associate();
     }

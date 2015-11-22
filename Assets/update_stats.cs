@@ -24,35 +24,10 @@ public class update_stats : MonoBehaviour {
 
         slot_taken = false;
 	}
-	
-	// Update is called once per frame
-	void Update () {
 
-	}
-
-	public void Update_Name(string name)
+	public void Update_Level()
 	{
-
-	}
-
-	public void Update_Image(ref Image image)
-	{
-
-	}
-
-	public void Update_Skill(string skill)
-	{
-
-	}
-
-	public void Update_Level(int level)
-	{
-
-	}
-
-	public void Update_Morale(int morale)
-	{
-
+        level_text.text = "Level: " + linked_associate.level.ToString();
 	}
 
     public bool Get_Slot_Taken()
@@ -78,7 +53,6 @@ public class update_stats : MonoBehaviour {
 
     public void decrement_morale()
     {
-        print("WHUT?!");
         if (linked_associate.morale > 0 && linked_associate.morale < 20)
         {
             linked_associate.morale--;

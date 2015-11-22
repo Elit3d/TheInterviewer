@@ -6,6 +6,8 @@ using System.Collections.Generic;
 
 public class game_controller : MonoBehaviour {
 
+    int num_hires = 10;
+
     public static int money;
 
 	public update_stats[] associates_stats; //do not change this name, it will reset the array
@@ -58,11 +60,25 @@ public class game_controller : MonoBehaviour {
 				associates_stats[i].level_text.text = "Level: " + current_associate.associate.level.ToString();
 				associates_stats[i].morale_text.text = "Morale: " + current_associate.associate.morale.ToString();
                 associates_stats[i].linked_associate = current_associate.associate;
+                associates_stats[i].Update_Level();
 				associates_stats[i].Set_Slot_Taken(true);
 				break;
 			}
 		}
 	}
+
+    int Num_Slots_Taken()
+    {
+        int slots = 0;
+        for(int i = 0; i < associates_stats.Length; i++)
+        {
+            if(associates_stats[i].Get_Slot_Taken() == false)
+            {
+                slots++;
+            }
+        }
+        return slots;
+    }
 
 	void Next_Associate()
 	{
@@ -73,16 +89,25 @@ public class game_controller : MonoBehaviour {
 
 	public void Hire_BTN()
 	{
-		//add to our team
-		Add_To_Slot();
-		current_associate.associate.gameObject.SetActive(false);
-		Next_Associate();
+        if (Num_Slots_Taken() > 0)
+        {
+            //add to our team
+            Add_To_Slot();
+            money -= current_associate.associate.amount_promised;
+            current_associate.associate.gameObject.SetActive(false);
+            num_hires--;
+            Next_Associate();
+        }
 	}
 
 	public void Dismiss_BTN()
 	{
-		//dismiss current one
-		Next_Associate();
+        if (Num_Slots_Taken() > 0 && num_hires > Num_Slots_Taken())
+        {
+            //dismiss current one
+            Next_Associate();
+            num_hires--;
+        }
 	}
 
 	
