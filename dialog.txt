@@ -51,12 +51,12 @@ Options:
 --------------------------------
 Dialog 3
 --------------------------------
-Text: ..., well tell me about yourself?
+Text: What's the pay?
 Options:
-1: I know my way around lots of buildings = 2
-2: I 5ft 10inch = -1
-3: I am an expert scouter = 3
-4: I have done things like this in the past = 1
+1: £100
+2: £2,000 
+3: £10,000 
+4: £500,000 
 
 ============================================================================================================
 Character 3:
@@ -185,10 +185,10 @@ Dialog 1
 --------------------------------
 Text: I'm here because I want to make quickNEWLINEmoney, what can you offer?
 Options:
-1: £100 = 1
-2: £2,000 = 2
-3: £10,000 3
-4: £500,000 = -1
+1: £100
+2: £2,000 
+3: £10,000
+4: £500,000 
 --------------------------------
 Dialog 2
 --------------------------------
@@ -207,3 +207,93 @@ Options:
 2: ASDA
 3: Bank
 4: Pentagon
+
+============================================================================================================
+Character 8:
+--------------------------------
+Dialog 1
+--------------------------------
+Text: Yo, yo! Can I join your team dawg!?
+Options:
+1: Yeah.... no...
+2: Sure dude!
+3: Can't you talk more professional
+4: Get out of here!
+--------------------------------
+Dialog 2
+--------------------------------
+Text: I don't specialize in anything but I probablyNEWLINEbe your gunner, would that be okay?
+Options:
+1: Not really
+2: Sure sound good
+3: I don't want you in my team
+4: *Ignore the guy and walk away*
+--------------------------------
+Dialog 3
+--------------------------------
+Text: Alright, cool! What's the payment look like?
+Options:
+1: £100
+2: £2,000 
+3: £10,000 
+4: £500,000 
+
+============================================================================================================
+Character 9:
+--------------------------------
+Dialog 1
+--------------------------------
+Text: Hello Mr. Michael, I know lots about you,NEWLONEI am the best spy there is and I couldNEWLINEgreatly benefit you! Am I what you are looking for? 
+Options:
+1: Wait, how do you know me...
+2: *Feel creeped out*
+3: I'm glad you know me, shows that youNEWLINEreally are a great spy!
+4: Indeed you are!
+--------------------------------
+Dialog 2
+--------------------------------
+Text: Now I expect a good payment, what sort of money are we looking at?
+Options:
+1: £100
+2: £2,000 
+3: £10,000 
+4: £500,000 
+--------------------------------
+Dialog 3
+--------------------------------
+Text: ..., well tell me about yourself?
+Options:
+1: I know my way around lots of buildings 
+2: I 5ft 10inch 
+3: I am an expert scouter 
+4: I have done things like this in the past 
+
+============================================================================================================
+Character 10:
+--------------------------------
+Dialog 1
+--------------------------------
+Text: 
+Options:
+1: 
+2: 
+3: 
+4: 
+--------------------------------
+Dialog 2
+--------------------------------
+Text: 
+Options:
+1:
+2: 
+3: 
+4: 
+--------------------------------
+Dialog 3
+--------------------------------
+Text: 
+Options:
+1: 
+2: 
+3: 
+4: 
