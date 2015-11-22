@@ -10,7 +10,7 @@ public class Begin_Mission : MonoBehaviour {
 	int thief_points;
 	int spy_points;
 	int scout_points;
-    private Text m_text;
+    public Text m_text;
 
 	// Use this for initialization
 	void Start () {
@@ -20,7 +20,9 @@ public class Begin_Mission : MonoBehaviour {
 
     void OnLevelWasLoaded()
     {
-        m_text = GameObject.FindWithTag("FinalText").GetComponent<Text>();
+        print("Level loaded");
+        m_text = GameObject.FindWithTag("Canvas").transform.GetChild(1).GetComponent<Text>();
+        Check_Total_Points();
     }
 
 	public void Start_The_Mission()
@@ -49,7 +51,6 @@ public class Begin_Mission : MonoBehaviour {
        total_points += lock_pick_points + spy_points + thief_points + scout_points;
 
        Application.LoadLevel("mission_scene");
-	   Check_Total_Points();
 		//if points  is correct, we want it to be successful
 	   
 	}
@@ -60,11 +61,21 @@ public class Begin_Mission : MonoBehaviour {
 
 		if (total_points >= 10)
 		{
-            m_text.text = "AKDMKAKDAMDKMAD";
+            print(total_points);
+            m_text.text = "You got away with it!";
+            string lockpick_text = "\nCapable lockpicking got you: " + (lock_pick_points * 2000).ToString();
+            string spy_text = "\nSpying on the customers got you: " + (spy_points * 2000).ToString();
+            string thief_text = "\nExperienced thieves got you: " + (thief_points * 2000).ToString();
+            string scout_text = "\nScouting the building got you: " + (scout_points * 2000).ToString();
+            
+            int total_money = game_controller.money + (lock_pick_points * 2000) + (spy_points * 2000) + (thief_points * 2000) + (scout_points * 2000);
+            string total_score = "\nTotal haul: " + (total_money).ToString();
+            m_text.text += lockpick_text + spy_text + thief_text + scout_text + total_score;
+            
 		}
 		else
 		{
-            m_text.text = "AKDMKAKDAMDKMAD";
+            m_text.text = "You failed and \n were all caught.";
 		}
 	}
 }
